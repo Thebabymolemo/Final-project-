@@ -1,0 +1,49 @@
+.click{
+    padding: 5px;
+}
+
+.click .container {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.click .container a {
+    display: block;
+}
+
+.click .clicks {
+    margin: 0 15px;
+}
+
+.click .clicks a {
+    color: #fff;
+    transition: all 0.4s ease;
+    font-size: x-large;
+}
+
+.click .clicks a:is(:hover, :focus) {
+    transform: rotate(360deg) scale(2);
+}
+
+footer {
+    background-color: #00abf0;
+    padding: 25px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .text span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+footer .text span a {
+    font-weight: 500;
+    color: #fff;
+}
+
+footer .text span a:hover {
+    text-decoration: underline;
+}

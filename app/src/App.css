@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	text-decoration: none;
+}
+
+.contact .contact-details {
+	padding-left: 1rem;
+}
+
+.contact .contact-details .text {
+	margin-top: 50px;
+	color: #fff;
+}
+
+.contact .contact-details .text-two {
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin: 40px 0;
+}
+
+.contact .contact-details .text-two .p1 {
+	font-size: 1rem;
+	font-weight: 300;
+	font-style: none;
+}
+
+.contact .contact-details .mail {
+	display: flex;
+}
+
+.contact .contact-details .email {
+	font-size: 3rem;
+	margin: 0 10px 0 0;
+}
+
+.contact .contact-details .text-three {
+	font-size: 1.3rem;
+}
+
+.contact .contact-details .text-three a {
+	color: #00abf0;
+}
+
+.contact .contact-details .table {
+	list-style: none;
+	border-radius: 10px;
+	margin: 20px 60px 0;
+	background-color: #fff;
+}
+
+input {
+	background-color: #00abf0;
+	color: #fff;
+	border-radius: 5px;
+	height: 40px;
+	width: 90%;
+	margin: 10px 0 0 40px;
+	padding: 20px;
+	font-size: 1.2rem;
+}
+
+form {
+	width: 100%;
+}
+
+form .button {
+	margin: 0px 40px;
+}
+
+form .button button {
+	font-size: 2rem;
+	padding: 10px;
+	border-radius: 5px #fff;
+	background: #00abf0;
+	font-family: inherit;
+	color: #fff;
+	margin-bottom: 1rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+	.contact-details {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.text-one {
+		width: 70%;
+	}
+
+	input {
+		width: 40%;
+	}
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+@media (min-width: 1280px) {
+	.contact-details {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

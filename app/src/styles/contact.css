@@ -1,0 +1,70 @@
+section {
+	color: #00abf0;
+}
+
+.contact-title {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.contact-details .text {
+	display: flex;
+	flex-direction: column;
+}
+
+.text-one {
+	margin-right: 2rem;
+	width: 100%;
+	font-size: 1rem;
+}
+
+.text .text-one p {
+	margin-bottom: 1rem;
+}
+
+.table {
+	display: grid;
+	place-content: center;
+}
+
+.table-topic {
+	font-size: 3rem;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 2rem;
+	color: #00abf0;
+}
+
+input {
+	width: 90%;
+	height: 4rem;
+	font-size: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+form .mess {
+	height: 15rem;
+}
+
+.contact-button button {
+	text-transform: capitalize;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

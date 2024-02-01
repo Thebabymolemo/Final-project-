@@ -1,0 +1,88 @@
+.services {
+	font-family: "Alkatra", sans-serif;
+	font-weight: 600;
+}
+
+.services .content {
+	padding: 20px 0;
+	margin-left: 100px;
+}
+
+.services .content .first{
+	font-style: italic;
+	font-size: x-large;
+	display: flex;
+	padding: 10px 10px;
+	justify-content: center;
+	color: #00abf0;
+}
+
+.services .boxes{
+	margin-left: 50px;
+}
+
+.services .boxes .box {
+	margin: 20px 0;
+	text-align: center;
+	border-radius: 12px;
+	padding: 30px 10px;
+	box-shadow: 0 5px 10px #00abf0;
+	cursor: default;
+	transition: all 0.4s ease;
+	background: #00abf0;
+}
+
+.services .boxes .box .topic {
+	font-size: 2.5rem;
+	color: #fff;
+	font-style: italic;
+}
+
+.services .boxes .box .topic .p{
+	font-size: 10rem;
+}
+
+.services .boxes .box:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.services .content .boxes .box:hover .topic {
+	color: #000;
+}
+
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p {
+	color: #00abf0;
+	transition: all 0.4s ease;
+}
+
+/* xs */
+@media (min-width: 475px) {
+	.services .boxes {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+	.services .boxes {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+	}
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

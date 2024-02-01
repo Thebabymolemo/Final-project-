@@ -1,0 +1,403 @@
+.gallery_main{
+background-color: #000;	
+}
+
+
+.gallery {
+	display: flex;
+	justify-content: center;
+	margin: 40px;
+	color: #00abf0;
+	font-size: 2rem;
+	font-weight: 900;
+	
+
+}
+
+.trending {
+	padding: 20px 30px;
+	width: 100%;
+}
+
+.trending .trend_container {
+	max-width: 100%;
+	display: flex;
+}
+
+.trending .trend_container .left_box {
+	padding: 10px 10px;
+	width: 75%;
+}
+
+.trending .trend_container .left_box .header {
+	display: flex;
+	padding: 10px 10px;
+	background: #efefef;
+	justify-content: center;
+	color: #00abf0;
+}
+
+.trending .trend_container .left_box .header .heading .h2 {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.product {
+	padding: 30px 40px;
+	width: 100%;
+}
+
+.product .grid-container {
+	grid-gap: 20px;
+}
+
+.product .grid-container .grid-item {
+	background-color: #efefef;
+	padding: 25px 0;
+	font-size: 30px;
+	text-align: center;
+	justify-content: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic1 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #000;
+	margin-bottom: 20px;
+	transition: 0.5s;
+}
+
+.product .grid-container .grid-item .pic1 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic2 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+}
+
+.product .grid-container .grid-item .pic2 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic3 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic3 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic4 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic4 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic5 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic5 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic6 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic6 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic7 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic7 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic8 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic8 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic9 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic9 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic10 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic10 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic11 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic11 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .grid-container .grid-item .pic12 img {
+	width: 250px;
+	padding: 10px 20px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.product .grid-container .grid-item .pic12 p {
+	color: #00abf0;
+	font-size: 20px;
+}
+
+.product .trend_container .box {
+	padding: 10px 20px;
+	overflow: hidden;
+	width: 250px;
+	height: 300px;
+	border: 2px solid #9a9a9a;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+/* xs */
+@media (min-width: 475px) {
+	.product .grid-container {
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+	}
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+	.product .grid-container {
+		display: grid;
+		grid-template-columns: auto auto;
+		width: 600px;
+	}
+}
+
+/* lg */
+@media (min-width: 1024px) {
+	.product .grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		width: 800px;
+	}
+}
+
+/* xl */
+@media (min-width: 1280px) {
+	.product .grid-container {
+		display: grid;
+		grid-template-columns: repeat(4, auto);
+		width: 1100px;
+	}
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+
+/* .product .container .box:hover{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0) 0px 5px 15px;
+  }
+  
+  .product .container .box .img_box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e0e0;
+  }
+  
+  .product .container .box .img_box img{
+    width: 300px;
+    height: 250px;
+    margin-right: 50px;
+  }
+  
+  .product .container .box .img_box .pic1 img{
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer; 
+  }
+  
+  .product .container .box .img_box .pic2 img{
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .product .container .box .img_box .pic3 img{
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .product .container .box .img_box .pic4 img{
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .product .container .box .img_box .pic5 img{
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .product .container .box .img_box .pic6 img{
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .product .container .box .img_box .pic7 img{  width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;}
+  
+  .product .container .box .img_box .pic8 img{  
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;}
+  
+  .product .container .box .img_box .pic9 img{
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .product .container .box .img_box .pic10 img{
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .product .container .box .img_box .pic11 img{
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .product .container .box .img_box .pic12 img{
+    width: 240px;
+    padding: 10px 20px;
+    border: 2px solid #9a9a9a ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  } */
