@@ -14,7 +14,7 @@ const Home = () => {
 					{/* <div className="logo">
 						<img src={logo} alt="" id="logo" />
 					</div>
-					<p>Never Die Broke Invision</p> */}
+					<p>Empess Royal</p> */}
 				</div>
 				<Navbar />
 			</div>
@@ -32,7 +32,7 @@ const Home = () => {
 								</p>
 								<br />
 								<p className="text-three">
-									At An Affordable Price
+									 Affordable Price
 								</p>
 								<div className="button">
 									<button>Shop now</button>
