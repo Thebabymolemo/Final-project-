@@ -19,14 +19,14 @@ const About = () => {
 						</div>
 						<div className="right">
 							<div className="topic">
-								Never Die Broke Invision
+								Empress Royal
 							</div>
 							<br />
 							<br />
 							<p>
-								Never Die Broke Invisions Clothing(SA) was
-								founded on May 31,2023.It is situated in Protea
-								Glen ext 12,Soweto.The brand is crafted for for
+								Empress Royal Clothing was
+								founded on Feb 12,2023.It is located in Lenasia 
+								Signet Terrace.The brand is crafted for
 								risilient entrepreneurs and hustlers who
 								persevere in their pursuits, as well individuals
 								committed to ensuring they never experience
