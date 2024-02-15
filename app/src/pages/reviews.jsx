@@ -20,17 +20,16 @@ const Reviews = () => {
 				<div className="review-content">
 					<div className="box">
 						<p>
-							I am absolutely thrilled with my shopping experience
-							at Never Die Broke. The quality of the clothing
-							exceeded my expectations and detail in the designs
-							is exceptional.
+							I enjoyed shopping at Empress Royal as they offer quality products.
+							It is more like quality over quantity.
+							
 						</p>
 						<div className="in-box">
 							<div className="bx-img">
 								<img src={z} alt="" />
 							</div>
 							<div className="bxx-text">
-								<h4>Ziyanda Makha</h4>
+								<h4>phumeza lukele</h4>
 								<h5>Clothing Vlogger</h5>
 								<div className="ratings">
 									<a href="/">
@@ -67,7 +66,7 @@ const Reviews = () => {
 								<img src={k} alt="" />
 							</div>
 							<div className="bxx-text">
-								<h4>Khetha Maseko</h4>
+								<h4>Nobuntu Cele</h4>
 								<h5>Content Creator</h5>
 								<div className="ratings">
 									<a href="/">
@@ -100,7 +99,7 @@ const Reviews = () => {
 								<img src={si} alt="" />
 							</div>
 							<div className="bxx-text">
-								<h4>Reatlehile Mantse</h4>
+								<h4>Bazo Zulu </h4>
 								<h5>Journalist</h5>
 								<div className="ratings">
 									<a href="/">
