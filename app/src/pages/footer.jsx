@@ -19,7 +19,7 @@ const Footer = () => {
 								<RiFacebookCircleFill />
 							</a>
 						</li>
-						{/* href='https://www.instagram.com/never.die.broke.iv_?igsh=enlwdHlneHdzemQ2' */}
+						{/* href='https://www.instagram.com/empress royal.iv_?igsh=enlwdHlneHdzemQ2' */}
 						<li className="clicks">
 							<a href="/">
 								<RiInstagramFill />
@@ -38,7 +38,7 @@ const Footer = () => {
 					</div>
 					<div class="text">
 						<span>
-							Created By <a href="/">S.H_Sibeko</a> | &#169; 2023
+							Created By <a href="/">G.A_Vukeya</a> | &#169; 2023
 							All Rights Reserved
 						</span>
 					</div>
