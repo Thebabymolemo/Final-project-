@@ -23,8 +23,9 @@ const Contact = () => {
 						<div className="text-one">
 							<p className="first">Thank you for choosing Us!</p>
 							<p className="second">
-								We're here to assist you. <br /> Feel free to reach out
-								to us using the following contact options:
+								We're here to assist you. <br /> Feel free to get in touch.
+				
+								contact us to us using the following contact options:
 							</p>
 							<p className="third">
 								Have a specific question or inquiry?
@@ -36,8 +37,8 @@ const Contact = () => {
 							<p className="fourth">Locate Us @:</p>
 							<div className="address">
 								<p className="fifth">
-									4 Myrtle Street <br /> Protea Glen Ext 12{" "}
-									<br /> 1818
+									49 Signet Terrace <br /> Lenasia Ext 2{" "}
+									<br /> 1827
 								</p>
 							</div>
 							<div className="contact-link">
@@ -46,25 +47,25 @@ const Contact = () => {
 									<li className="clicks">
 										<a href="/">
 											<RiFacebookCircleFill />
-											Never Die Broke Invisions
+											Empress Royal
 										</a>
 									</li>
 									<li className="clicks">
 										<a href="/">
 											<RiInstagramFill />
-											Never Die Broke Invisions
+											Empress Royal
 										</a>
 									</li>
 									<li className="clicks">
 										<a href="/">
 											<RiWhatsappFill />
-											079-755-1982
+											063-587-7741
 										</a>
 									</li>
 									<li className="clicks">
 										<a href="/">
 											<RiPhoneFill />
-											079-755-1982
+											063-587-7741
 										</a>
 									</li>
 								</div>
@@ -73,7 +74,7 @@ const Contact = () => {
 						<div className="text-three">
 							<span>Mail us @</span>
 							<br />
-							<a href="/">sibekoharriet89@gmail.com</a>
+							<a href="/">ga.vukeya27@gmail.com</a>
 						</div>
 					</div>
 					<div className="table">
